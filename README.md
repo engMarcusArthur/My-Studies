@@ -1,2 +1,2 @@
 # My Studies
- Where have I been running
+ Where I have been running
