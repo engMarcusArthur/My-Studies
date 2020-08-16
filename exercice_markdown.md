@@ -41,8 +41,8 @@ Lista Demarcada:
 
 Lista de Tarefas:
 
-- [] Tarefa 1
-- [] Tarefa 2
-- [x] Tarefa 3
-- [] Tarefa 4
+* [ ] Tarefa 1
+* [ ] Tarefa 2
+* [x] Tarefa 3
+* [ ] Tarefa 4
 
