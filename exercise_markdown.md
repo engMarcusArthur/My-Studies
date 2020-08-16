@@ -5,7 +5,7 @@ __negrito__
 *italico*
 _italico_
 ~~riscado~~
-**_misturado_**
+~~**_misturado_**~~
 ***
 # Título 1
 ## Título 2
