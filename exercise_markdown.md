@@ -1,4 +1,29 @@
 # Markdown Exercices
+:tomato:
+:vulcan_salute:
+Encontre emojis em `https://github.com/ikatyang/emoji-cheat-sheet`
+
+No `https://emojipedia.org/` você encontra emojis para copiar e colar até em títulos de comentários de commit.
+
+Dá pra usar quotes reply:
+> Quando você responder, fica assim.
+
+i|Name|Score
+---|---|---
+1|Marcus|965
+2|Arthur|973
+
+Use o código `if num % 2 == 0:`
+
+Assim:
+
+```
+num = int(input('Digite um valor: ')
+if num % 2 == 0:
+    print(f'O valor {num} é par)
+else:
+    print(f'O valor {num} é impar)
+```
 
 **negrito**
 __negrito__
