@@ -1,9 +1,7 @@
 # My Studies
- Where I have been running
+ Where I have been running.
  
- Feel free to copy the content.
- 
- Feel free to teach me to! :smile:
+ Feel free to copy the content and to teach me to! :smile:
 
  All of stuffs here was designed with the knowledge found out on free content on internet. I am an alive experience. :smile:
 
