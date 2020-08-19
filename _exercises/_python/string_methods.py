@@ -3,7 +3,6 @@
 # Note: be free to correct my english if identify some mistake...
 # Be free to copy and spread
 # https://github.com/engMarcusArthur/
-number_index=1
 txt=(input("Type a string (the 'first string') to analise code response according with the string method aplicated->")) # This will be the 'first string' mentioned all over this code.
 print("<1>",txt.capitalize())	#<1>Converts the first character to upper case
 print("<2>",txt.casefold())	#<2>Converts string into lower case
@@ -29,9 +28,14 @@ print(new_text.expandtabs(len_tabs))	#<8> Expand tabs in a string.
 print("<9> I am going to told you where is the first appearance of a string you type in the first string. Type what string you want to know where it is.", end='')
 where_string=input("->")
 print("<9>", txt.find(where_string))	#<9>Searches the string and returns the position where it was found.
-print("<10>", txt.format())	#<10>Formats specified values in a string
+print("<10>", txt.format())	#<10>Formats specified values in a string; not explored here
+# input stored in variable a. 
+b="John"
+c="Wick"
+a = {"x":b, "y":c}
+# Use of format_map() function
+print("<11> {x}'s last name is {y}".format_map(a)) #<11>Formats specified values in a string
 """
-print("<11>", txt.format_map())	#<11>Formats specified values in a string
 print("<12>", txt.index())	#<12>Searches the string for a specified value and returns the position of where it was found
 print("<13>", txt.isalnum())	#<13>Returns True if all characters in the string are alphanumeric
 print("<14>", txt.isalpha())	#<14>Returns True if all characters in the string are in the alphabet
