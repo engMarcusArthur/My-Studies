@@ -1,0 +1,68 @@
+create database cadastro
+default character set utf8
+default collate utf8_general_ci;
+
+use cadastro;
+create table pessoas(
+id int not null auto_increment,
+nome varchar(30) not null,
+nascimento date,
+sexo enum('M','F'),
+peso decimal(4,1),
+altura decimal(3,2),
+nacionalidade varchar(20) default 'Brasil',
+primary key(id)
+)
+default charset = utf8;
+
+insert into pessoas
+(nome, nascimento, sexo, peso, altura, nacionalidade)
+value
+('Godofredo','1984-01-02','M','78.5','1.83','Brasil');
+
+insert into pessoas
+(nome, nascimento, sexo, peso, altura, nacionalidade)
+value
+('Zé Maria','1982-11-23','M','105','1.88','Brasil');
+
+insert into pessoas value
+(default, 'Maria Raimunda','1985-01-23','F','75','1.66','Brasil');
+
+insert into pessoas value
+(default, 'Célio Silva','1976-06-02','M','26','1.10','Brasil');
+
+insert into pessoas value
+(default, 'João Santos','1978-06-05','M','21','0.95','Brasil'),
+(default, 'Joana Brega','1963-09-05','F','12','0.65','Brasil');
+
+select * from cadastro.pessoas;
+select nome from cadastro.pessoas;
+use cadastro;
+describe pessoas;
+
+alter table pessoas
+add column profissao varchar(10);
+
+alter table pessoas
+drop column profissao;
+
+alter table pessoas add column profissao varchar(10) after nascimento;
+
+alter table pessoas add column codigo int first;
+
+alter table pessoas modify profissao varchar(20);
+alter table pessoas modify profissao varchar(20) not null default '0';
+
+desc pessoas;
+select * from cadastro.pessoas;
+
+alter table pessoas change codigo cod int;
+
+alter table pessoas rename to family;
+
+create table if not exists cursos (
+nome varchar(30) not null unique,
+descricao text,
+carga int unsigned,
+totaulas int,
+ano year default '2020') default charset = utf8
