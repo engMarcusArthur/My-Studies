@@ -3,7 +3,7 @@ def from_to(a,b):   # Defining the function
     if a<b:
         print(a)
         a+=1
-        from_to(a,b)
+        from_to(a,b)   # The recursive calling
     else:
         print(a)
 
