@@ -12,8 +12,6 @@
  [Curso Em Vídeo](https://www.youtube.com/channel/UCrWvhVmt0Qac3HgsjQK62FQ) *Didactic++* (PT-BR)
 
  [w3schools](https://www.w3schools.com/) *very good stuffs here*
- 
- [Datacamp](https://www.datacamp.com/) *tutorials appears on searching on Google.com*
 
  [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) *Yep!*
 
